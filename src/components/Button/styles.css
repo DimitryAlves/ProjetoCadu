@@ -1,0 +1,18 @@
+.button-component{
+    width: 204px;
+    height: 55px;
+    border-radius: 33px;
+    background-color: #FF9900;
+    color: white;
+    border: none;
+    font-size: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+@media(min-width: 576px){
+    .button-component{
+        width: 215px;
+        height: 50px;
+    }
+}
